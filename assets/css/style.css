@@ -10,9 +10,9 @@
   --color-tlgray-800: oklch(0.2781 0.0296 256.85);
 }
 
-
+/* tutaj są czcionki */
 body {
-  font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
+  font-family: 'Montserrat', 'Noto Sans JP', sans-serif; 
   font-weight: 300;
 }
 .content {
