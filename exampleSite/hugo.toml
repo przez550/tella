@@ -21,7 +21,7 @@ enableRobotsTXT = true
 
 [params]
 showBlog = true
-mainSections = ['blog']
+mainSections = ['blog'] #nie wiem do czego to
 googleFonts = true
 
   [params.logo]
