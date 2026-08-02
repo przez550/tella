@@ -3,17 +3,27 @@
 @plugin "@tailwindcss/forms";
 @source "hugo_stats.json";
 
+
+/* zmienne kolorów motywu */
 @theme {
-  --color-tlgray-200: oklch(0.9276 0.0058 264.53);
+  --color-tlgray-200: oklch(0.9276 0.0058 264.53); /* kolor tła kafelek */
   --color-tlgray-400: oklch(0.7137 0.0192 261.32);
-  --color-tlgray-700: oklch(0.3729 0.0306 259.73);
+  --color-tlgray-700: oklch(0.3729 0.0306 259.73); /* dół stopki */
   --color-tlgray-800: oklch(0.2781 0.0296 256.85);
 }
+
+/* kolor góry stopki */
+/* .bg-gray-800 { background-color: oklch(33.326% 0.00177 285.99) !important; } */
+
+/* kolor kafelek */
+/* .bg-white { background-color: oklch(50.081% 0.00006 271.152) !important; } */
 
 /* tutaj są czcionki */
 body {
   font-family: 'Montserrat', 'Noto Sans JP', sans-serif; 
   font-weight: 300;
+  /* kolor nagłówka */
+  /* background-color: #000;  *//* kolor nagłówka */
 }
 .content {
   font-family: 'Open Sans', 'Noto Sans JP', sans-serif;
